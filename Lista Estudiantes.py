@@ -19,7 +19,7 @@ while True:
     if opcion == "1":
         cantidad = int(input("Ingrese la cantidad de estudiantes: "))
         for i in range(cantidad):
-            print(f"\nEstudiante No.{i + 1}")
+            print(f"Estudiante No.{i + 1}")
             carnet = int(input("Ingrese el carnet del estudiante: "))
             nombre = input("Ingrese el nombre completo del estudiante: ")
             carrera = input("Ingrese carrera: ")
